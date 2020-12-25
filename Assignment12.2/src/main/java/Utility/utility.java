@@ -33,7 +33,7 @@ public class utility {
 	return body;
     }
         public static String getCurrentDateTime() {
-    	DateFormat customFormat = new SimpleDateFormat("yyyy-MM-dd HH-mm-ss");
+    	DateFormat customFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH-mm-ss'Z'");
     	Date currentDate = new Date();
     	return customFormat.format(currentDate);
     }
